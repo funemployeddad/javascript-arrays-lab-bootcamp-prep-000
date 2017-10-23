@@ -55,5 +55,5 @@ function kittens(){
 
 function removeLastKitten(){
   var sliced = kittens.slice(3);
-  return kittens;
+  return sliced;
 }
